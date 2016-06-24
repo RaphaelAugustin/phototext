@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-
+import android.widget.EditText;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -15,9 +15,14 @@ public class MainActivity extends AppCompatActivity {
 
            setContentView(R.layout.activity_main);
     }
-    
-    public void pushPseudo(View view) {
+
+    public void pushPseudo(View view)
+    {
+
+        EditText pseudoText = (EditText) findViewById(R.id.pseudoText);
+
         Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        intent.putExtra("pseudo", pseudoText.getText().toString());
         startActivity(intent);
     }
 }

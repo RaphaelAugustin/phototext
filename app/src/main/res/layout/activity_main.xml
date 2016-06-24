@@ -28,7 +28,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:ems="10"
-        android:id="@+id/pseudo_id" />
+        android:id="@+id/pseudoText" />
 
     <Button
         android:layout_height="wrap_content"
