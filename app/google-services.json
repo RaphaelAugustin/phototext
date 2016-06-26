@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "725431341975",
+    "firebase_url": "https://phototext-bc4fe.firebaseio.com",
+    "project_id": "phototext-bc4fe",
+    "storage_bucket": "phototext-bc4fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725431341975:android:40f2f15d8caba806",
+        "android_client_info": {
+          "package_name": "fr.supinternet.phototext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725431341975-k917dc58v7h4op6spe823914502akd32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaLRot2-Z2sL2ydpl2_RD8F6bbq42ArBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
