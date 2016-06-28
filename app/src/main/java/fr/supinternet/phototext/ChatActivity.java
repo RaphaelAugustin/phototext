@@ -74,7 +74,10 @@ public class ChatActivity extends AppCompatActivity {
 
 
         ButterKnife.bind(this);
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
+//        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
+
+
+        final ImageAdapter adapter = new ImageAdapter(this);
         listView.setAdapter(adapter);
 
 
@@ -91,7 +94,7 @@ public class ChatActivity extends AppCompatActivity {
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-                adapter.remove(dataSnapshot.getValue().toString());
+               // adapter.remove(dataSnapshot.getValue().toString());
             }
 
             @Override
